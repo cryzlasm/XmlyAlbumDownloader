@@ -57,7 +57,8 @@ jobs:
 
     env:
       Solution_Name: XmlyAlbumDownloader.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
-
+      Wap_Project_Directory: XmlyAlbumDownloader    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Wap_Project_Path: XmlyAlbumDownloader  
 
     steps:
     - name: Checkout
